@@ -1,7 +1,8 @@
+//명령행의 변수를 읽어서 출력하는 코드
 const fs = require('fs');
 const filename = process.argv[2];
 
-process.argv.forEach(element => {
+process.argv.forEach(element => { //process.argv - 파일을 실행하면서 쓰인 인자들
     console.log(element);
 
     // 첫번째 파라미터 - node의 경로 /opt/homebrew/Cellar/node/19.3.0/bin/node
