@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/TheLifeOfSeo/node-beginner/issues"
   },
-  "homepage": "https://github.com/TheLifeOfSeo/node-beginner#readme"
+  "homepage": "https://github.com/TheLifeOfSeo/node-beginner#readme",
+  "dependencies": {
+    "node-gyp": "^9.3.1",
+    "yarn": "^1.22.19",
+    "zeromq": "^5.3.1"
+  }
 }
