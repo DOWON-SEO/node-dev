@@ -1,0 +1,48 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/19.4.0_1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add zmq
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/Users/dowonseo/Code/node-beginner/node_modules/@tootallnate/once/LICENSE'
+
+npm manifest: 
+  {
+    "name": "beginner",
+    "version": "1.0.0",
+    "description": "Start Node.js from the bottom",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TheLifeOfSeo/node-beginner.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TheLifeOfSeo/node-beginner/issues"
+    },
+    "homepage": "https://github.com/TheLifeOfSeo/node-beginner#readme",
+    "dependencies": {
+      "node-gyp": "^9.3.1",
+      "yarn": "^1.22.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

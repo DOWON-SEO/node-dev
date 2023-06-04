@@ -1,15 +1,16 @@
-Start Node.js from the bottom
+### Start Node.js from the bottom
+<br><br><br>
 
 
 ## 1. Node.js 기초
+### Node.js
+#### 기본적인 작동 원리와 적용 영역
 
 <br>
 <br>
 
 ## 2. 파일 시스템 다루기
 ### Stream, EventEmitter
-<br>
-
 #### fs 모듈을 사용하며 입출력 메커니즘 익혀보기
 #### Stream과 Event Listening의 개념, 비동기 방식의 특징
 
